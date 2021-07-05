@@ -15,10 +15,36 @@
 <body>
     <div class="container">
         <header class="header">
-            Header
+            <img src="img/logo.png" alt="app logo" class="logo">
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="search">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href='img/sprite.svg#icon-magnifying-glass'></use>
+                    </svg>
+                </button>
+            </form>
+            <nav class="user-nav" aria-label="user-nav">
+                <div class="user-nav__icon_box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href='img/sprite.svg#icon-bookmark'></use>
+                    </svg>
+                    <span class="user-nav__notif">11</span>
+                </div>
+                <div class="user-nav__icon_box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href='img/sprite.svg#icon-chat'></use>
+                    </svg>
+                    <span class="user-nav__notif">123</span>
+                </div>
+                <div class="user-nav__admin">
+                    <img src="img/user.jpg" alt="Admin photo" class="user-nav__admin-photo">
+                    <span class="user-nav__admin-name">Lorem Ipsum</span>
+                </div>
+            </nav>
         </header>
         <div class="content">
-            <nav class="navigation">
+            <nav class="navigation" aria-label="navigation">
                 Navigation
             </nav>
             <main class="hotel-view">
