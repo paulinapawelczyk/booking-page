@@ -56,6 +56,24 @@ body {
   min-height: 100vh;
 }
 
+.logo {
+  height: 4rem;
+}
+
+.search__icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.user-nav__icon {
+  height: 3rem;
+  width: 3rem;
+}
+.user-nav__admin-photo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
 .container {
   max-width: 120rem;
   margin: 8rem auto;
