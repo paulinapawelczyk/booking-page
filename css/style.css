@@ -210,6 +210,81 @@ body {
   text-align: center;
 }
 
+.hotel-view-gallery {
+  display: flex;
+}
+.hotel-view-gallery__photo {
+  width: 100%;
+  display: block;
+}
+
+.hotel-overview {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid var(--color-grey-light-2);
+}
+.hotel-overview__heading {
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2rem 3rem;
+}
+.hotel-overview__rating-stars {
+  margin-right: auto;
+  display: flex;
+}
+.hotel-overview__icon-star, .hotel-overview__icon-loc {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: var(--color-primary);
+}
+.hotel-overview__location {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.hotel-overview__rate {
+  background-color: var(--color-primary);
+  margin-left: 1.5rem;
+  padding: 0 1.3rem;
+  color: #fff;
+  font-size: inherit;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-overview__rate-average {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hotel-overview__rate-count {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.btn-inline {
+  border: none;
+  color: var(--color-primary-dark);
+  font-size: inherit;
+  border-bottom: 2px solid currentColor;
+  background-color: transparent;
+  padding-bottom: 2px;
+  display: inline-block;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+.btn-inline:hover {
+  color: var(--color-grey-dark-1);
+}
+.btn-inline:focus {
+  outline: none;
+}
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -222,7 +297,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 3px solid var(--color-grey-light-2);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -244,6 +319,7 @@ body {
   background-color: #fff;
   height: 150vh;
   flex: 1;
+  border-bottom: 3px solid var(--color-grey-light-2);
 }
 
 /*# sourceMappingURL=style.css.map */
